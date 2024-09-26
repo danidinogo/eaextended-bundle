@@ -1,0 +1,21 @@
+{
+    "name": "danidinogo/ea-extended-bundle",
+    "type": "symfony-bundle",
+    "version": "0.1.0",
+    "require": {
+        "php": ">=8.1",
+        "symfony/validator": ">=6.2",
+        "symfony/http-kernel": ">=6.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danidinogo\\Bundle\\EaExtendedBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Danidinogo\\Bundle\\EaExtendedBundle\\Tests\\": "tests/"
+        }
+    }    
+}
